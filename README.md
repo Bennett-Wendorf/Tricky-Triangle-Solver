@@ -73,9 +73,12 @@ This project began when I was on vacation and came accross one of these puzzles.
 The code will take the puzzle that is defined toward the bottom of the `Triangle_Puzzle_Solver.py` file and begin to brute force a solution by recursively checking every possible move that can be made. It will stop when it finds a solution with a score of 1 (the best possible score) and print out all the moves made to get to that solution.
 
 ### About the Puzzle
-<!-- TODO: Add a picture here -->
-<!-- <p align='center'><img src='res/0.1.0_alpha.png'></p> -->
-For those that are not aware, this puzzle is a simple one to learn how to play, but fairly tricky to solve. The premise of the puzzle is there are 15 holes on a triangular board, all but one with a golf tee or peg in them. The player can use pegs to jump to an open hole, removing the jumped peg in the process. A winning solution is left with four or less pegs when no more moves can be made, but it is possible to get down to just one peg remaining, which is the ultimate goal.
+<p align='center'><img src='res/Starting_Puzzle.png'></p>
+For those that are not aware, this puzzle is a simple one to learn how to play, but fairly tricky to solve. The premise of the puzzle is there are 15 holes on a triangular board (pictured above), all but one with a golf tee or peg in them. One the board above, the black dots represent holes with pegs and the white one the single empty hole at the start. The player can use pegs to jump to an open hole, removing the jumped peg in the process. A winning solution is left with four or less pegs when no more moves can be made, but it is possible to get down to just one peg remaining, which is the ultimate goal.
+
+</br></br>
+Below we see an example of a winning solution to the puzzle where there is only one peg remaining.
+<p align='center'><img src='res/Finished_Puzzle.png'></p>
 
 ### Built With
 
